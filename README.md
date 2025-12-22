@@ -3,7 +3,7 @@ This project was completed for my CS210 C++ programming course and is based on t
 The program loads data from CS210_Porject_Three_Input_File.txt at startup, processes the information using a map data structure, and creates a backup output file named 'frequency.dat' that contains each item paired with the number of times it appears.
 ## Design Choices I'm Most Confident In
 One area I did particularly well in was organizing the program using a class-based design. I created an ItemTracker class to separate the data handling logic from the user interface logic in 'main()'. The class uses a private map<string, int> to store item freuqeuncies and provides public functions to load data, retruve the frequency of a specific item. print all item frequencies, and display a histogram.
-I also used clear and consistent inline comments throughout the code to explain what each section and function is for. This helped make the program easier to read and understand, both for mysself and for anyone reviewing the code later.
+I also used clear and consistent inline comments throughout the code to explain what each section and function is for. This helped make the program easier to read and understand, both for myself and for anyone reviewing the code later.
 ## Areas For Improvement 
 One area where this program could be enhanced is input validation. While the program handles invalid menu choices, additional validation could be added to better handle unexpected user input, such as non-numeric menu selections. Improving error handling for file input by notifying the user more clearly if the input file is missing or incorrectly formatted, would also make the program more robust.
 ## Challenges During Development
