@@ -7,7 +7,7 @@ I also used clear and consistent inline comments throughout the code to explain 
 ## Areas For Improvement 
 One area where this program could be enhanced is input validation. While the program handles invalid menu choices, additional validation could be added to better handle unexpected user input, such as non-numeric menu selections. Improving error handling for file input by notifying the user more clearly if the input file is missing or incorrectly formatted, would also make the program more robust.
 ## Challenges During Development
-The most challenging part of this project was correctly implemnting file input and ensuring that item frequinces were counted accurately. Managing the logix for reading items one at a time and updating the map required careful attention to avoid logic errors.
+The most challenging part of this project was correctly implemnting file input and ensuring that item frequinces were counted accurately. Managing the logic for reading items one at a time and updating the map required careful attention to avoid logic errors.
 I overcame this challenge by breaking the probelm into smaller steps, testing each part of the program as it was built, and using inline comments to keep track of my thought process. Reviewing zyBook examples and debugging frequently helped ensure the program behaved as expected.
 ## Transferable Skills For Future Projects
 This project strengthened several skills that are transferable to other programming projects, inclduing working with file input and output, using maps to manage data, designing and implementing classes, and building menu-driven applications. These skills are applicable to future coursework and more advanced software development projects.
