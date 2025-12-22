@@ -1,2 +1,15 @@
-# portfolioproject
-Showcasing my work with C++ programming and problem-solving.
+## Project Summary
+This project was completed for my CS210 C++ programming course and is based on the Corner Grocer scenario. The goal of the program is to analyze a daily transaction log and determine how often eahc grocery item is purchased. The program reads item names from an input file, stores and tracks their frequncis, and allows the user to interact with the data through a menu-driven interface.
+The program loads data from CS210_Porject_Three_Input_File.txt at startup, processes the information using a map data structure, and creates a backup output file named 'frequency.dat' that contains each item paired with the number of times it appears.
+## Design Choices I'm Most Confident In
+One area I did particularly well in was organizing the program using a class-based design. I created an ItemTracker class to separate the data handling logic from the user interface logic in 'main()'. The class uses a private map<string, int> to store item freuqeuncies and provides public functions to load data, retruve the frequency of a specific item. print all item frequencies, and display a histogram.
+I also used clear and consistent inline comments throughout the code to explain what each section and function is for. This helped make the program easier to read and understand, both for mysself and for anyone reviewing the code later.
+## Areas For Improvement 
+One area where this program could be enhanced is input validation. While the program handles invalid menu choices, additional validation could be added to better handle unexpected user input, such as non-numeric menu selections. Improving error handling for file input by notifying the user more clearly if the input file is missing or incorrectly formatted, would also make the program more robust.
+## Challenges During Development
+The most challenging part of this project was correctly implemnting file input and ensuring that item frequinces were counted accurately. Managing the logix for reading items one at a time and updating the map required careful attention to avoid logic errors.
+I overcame this challenge by breaking the probelm into smaller steps, testing each part of the program as it was built, and using inline comments to keep track of my thought process. Reviewing zyBook examples and debugging frequently helped ensure the program behaved as expected.
+## Transferable Skills For Future Projects
+This project strengthened several skills that are transgerable to other programming projects, inclduing working with file input and output, using maps to manage data, designing and implementing classes, and building menu-driven applications. These skills are applicable to future coursework and more advanced software development projects.
+## How I focused on Readability and Long-Term Use
+I focused on making this program maintainable and readable by using descriptive function and varaiable names, consistent formatting, and clear inline comments. Separating functionality into class methods allows the program to be easily updated or expanded in the future without major changes to the overall structure.
